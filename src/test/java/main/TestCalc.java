@@ -12,4 +12,9 @@ public class TestCalc {
         assertEquals(2, Calc.add(1,1));
     }
 
+    @Test
+    void testSubtract() {
+        assertEquals(0, Calc.subtract(1,1));
+    }
+
 }
